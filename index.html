@@ -676,7 +676,7 @@ const matriculaSalva = user.matricula;
   }
 
   try {
-    const url = `https://long-hall-0aaa.pedro-fillype.workers.dev/colaborador?matricula=${encodeURIComponent(matriculaSalva)}`;
+    const url = `add-decp.decpenergisa2026.workers.dev/colaborador?matricula=${encodeURIComponent(matriculaSalva)}`;
     const resp = await authFetch(url);
     const json = await resp.json();
 
